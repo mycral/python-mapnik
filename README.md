@@ -24,6 +24,7 @@ export MASON_BUILD=true
 After this is done simply follow the directions as per a source build.
 
 ### Building from Source
+###编译注意，如果系统提示找不到boost_python 那么设置变量 export BOOST_PYTHON_LIB=boost_python27 即可...
 
 Assuming that you built your own mapnik from source, and you have run `make install`. Set any compiler or linking environment variables as necessary so that your installation of mapnik is found. Next simply run one of the two methods:
 
